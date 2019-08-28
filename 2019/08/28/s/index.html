@@ -141,7 +141,15 @@
                         <main>
                             <article class="article-text page-content"><h3 id="解析js原型链相关"><a href="#解析js原型链相关" class="headerlink" title="解析js原型链相关"></a>解析js原型链相关</h3><p align="left" size="4">前言</p>
 
-<p><font face="微软雅黑" size="4">&nbsp;&nbsp;每一次面试的必问题目就是原型链，包括原型链的解释，原型链的扩展，以及原型链的使用等等一系列问题，这也是js这门语言的一个难点之一了，一般在项目中使用的频率不高，所以掌握不牢固，每次面试的时候解释起来也就有些牵强，借此机会，好好梳理一下，争取把这个原型链彻底的搞懂，所以，这篇文章就会围绕着原型链的实际扩展和用处做一个详细的解释。<br></font><br>1、两种以上方式实现已知或者未知宽度的垂直水平居中。</p>
+<p><font face="微软雅黑" size="4">&nbsp;&nbsp;每一次面试的必问题目就是原型链，包括原型链的解释，原型链的扩展，以及原型链的使用等等一系列问题，这也是js这门语言的一个难点之一了，一般在项目中使用的频率不高，所以掌握不牢固，每次面试的时候解释起来也就有些牵强，借此机会，好好梳理一下，争取把这个原型链彻底的搞懂，所以，这篇文章就会围绕着原型链的实际扩展和用处做一个详细的解释。<br></font></p>
+<p><font face="微软雅黑" size="4">&nbsp;&nbsp;原型链涉及到的知识包括，原型链，继承，new 等等<br></font></p>
+<p><font face="微软雅黑" size="4">&nbsp;&nbsp;需要明确的知识：</font></p>
+<ol>
+<li>每个构造函数（constructor）都有一个原型对象（prototype），而原型对象都包含一个指向构造函数的指针，而实例（instance）都包含一个指向原型对象的内部指针（<strong>proto</strong>）。
+
+</li>
+</ol>
+<p>1、两种以上方式实现已知或者未知宽度的垂直水平居中。</p>
 <p>（1）</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.wraper</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: table;</span><br><span class="line">  .box &#123;</span><br><span class="line">    <span class="selector-tag">display</span>: <span class="selector-tag">table-cell</span>;</span><br><span class="line">    <span class="selector-tag">vertical-align</span>: <span class="selector-tag">middle</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></article>
                         </main>
